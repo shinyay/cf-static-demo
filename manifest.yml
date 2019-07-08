@@ -1,0 +1,7 @@
+---
+applications:
+- name: cf-demo
+  random-route: true
+  buildpack: staticfile_buildpack
+  memory: 64M
+  disk_quota: 256M
